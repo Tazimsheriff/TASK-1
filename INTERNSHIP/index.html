@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY VERY FIRST LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">TAZIM BRAND</div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tazimsheriffr@gmail.com" target="_blank">Contact</a>
+            <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <div class="hero-content slide-up">
+            <h1> A FRESH START ON A NEW DAY </h1>
+            <p>YOU EITHER DIE A HERO OR LIVE LONG ENOUGH TO BECOME A VILLAIN </p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 TAZBRAND — All Rights Reserved</p>
+        <div class="social">
+          <a href="https://www.instagram.com/tazzzunlikely_n_oblivious/" target="_blank">📸 Instagram</a>
+          <a href="https://www.linkedin.com/in/tazim-sheriff-r-15a355230/" target="_blank">💼 LinkedIn</a>
+
+        </div>
+    </footer>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
