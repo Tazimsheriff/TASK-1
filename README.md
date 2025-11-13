@@ -1,5 +1,6 @@
 # TASK-1
 MY FIRST TASK OF CREATING A LANDING PAGE 
+
 I created a responsive landing page using HTML, CSS, and a small JavaScript function.
 First, I made two files: index.html for the webpage structure and style.css for the styling.
 In index.html, I added the main sections:
